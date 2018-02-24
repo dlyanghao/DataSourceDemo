@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="DataSource"/>
+	<classpathentry kind="src" path="properties"/>
+	<classpathentry kind="src" path="Nosql"/>
+	<classpathentry kind="src" path="Src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.44-bin.jar"/>
+	<classpathentry kind="lib" path="lib/dbcp/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/dbcp/commons-pool-1.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/dbutils/commons-dbutils-1.4.jar" sourcepath="lib/dbutils/commons-dbutils-1.4-sources.jar"/>
+	<classpathentry kind="lib" path="lib/druid/druid-1.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/redis/jedis-2.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/redis/commons-pool2-2.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
