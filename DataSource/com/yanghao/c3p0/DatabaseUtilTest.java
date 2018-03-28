@@ -5,6 +5,8 @@ import java.sql.SQLException;
 
 import org.junit.Test;
 
+import com.mchange.v2.c3p0.DriverManagerDataSource;
+
 
 public class DatabaseUtilTest {
 

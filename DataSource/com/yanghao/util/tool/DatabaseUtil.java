@@ -9,6 +9,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
+import com.yanghao.constant.Constant;
+
 public class DatabaseUtil {
 	
 	/**
@@ -17,7 +19,6 @@ public class DatabaseUtil {
 	 * @author YanoHao
 	 * 
 	 */
-	
 	private static String url;
 	private static String user;
 	private static String password;
@@ -25,7 +26,7 @@ public class DatabaseUtil {
 	//加载数据库连接驱动及属性文件
 	static{
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName(Constant.ORACLE_DRIVER_QUALIFIEDNAME);
 			Properties properties = new Properties();
 			ClassLoader classLoader = DatabaseUtil.class.getClassLoader();
 			InputStream resourceAsStream = classLoader.getResourceAsStream("myCongfig.properties");
@@ -81,10 +82,4 @@ public class DatabaseUtil {
 
 	}
 	
-	
-	
-	
-	
-	
-
 }
